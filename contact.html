@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <style>
+        form {
+            padding: 16px;
+            border: 1px solid darkgray;
+            border-radius: 10px;
+            width: 300px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+    </style>
+
+
+
+</head>
+<body>
+ <nav class="page">
+        <a href="./index.html">Home |</a>
+        <a href="./education.html">Education |</a>
+        <a href="./work.html">Work |</a>
+        <a href="#">Contact</a>
+    </nav>
+    <hr>
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form>
+            <p>Enter your info..</p>
+
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name"> 
+            </div>
+
+            <div>
+                <label for="email">Your Email</label>
+                <input type="text" id="email">
+            </div>
+
+            <div>
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                <option selected disabled value="">select</option>
+                <option value="m">male</option>
+                <option value="f">female</option>
+                <option value="o">others</option>
+                
+
+            </select> 
+            </div>
+
+           <div>
+             <label for="message">Message</label> <br>
+            <textarea rows="10" ></textarea> 
+           </div>
+
+           <div>
+             <input type="submit" value="Send"/> 
+            <input type="reset" value="Clear"/>
+           </div>
+
+        </form>
+     
+
+    </div>
+</body>
+</html>

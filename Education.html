@@ -1,10 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        table, th, td {
+            border: 1px solid darkgray;
+
+        }
+    </style>
+
+
+
+</head>
+<body>
+    
 <div>
-    <div class="heading">
-        <a href="https://Home.com">Home</a>
-        <a href="https://Education.com">Education</a>
-        <a href="https://Work.com">Work</a>
-        <a href="https://contact.com">contact</a>
-    </div>
+ <nav class="page">
+        <a href="./index.html">Home |</a>
+        <a href="#">Education |</a>
+        <a href="./work.html">Work |</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+    <hr>
 
     <div class="Image">
         <h3>Education</h3>
@@ -14,14 +39,33 @@
     <div class="table">
         <table>
             <tr>
-                <th>Year</th>
-                <th>School/University</th>
+                <th colspan="2">Year</th>
+                <th rowspan="2">School/University</th>
             </tr>
 
             <tr>
-                <td>from</td>
-                <td>to</td>
+                <th>from</th>
+                <th>to</th>
             </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>2022</td>
+                <td>ABC University</td>
+            </tr>
+
+            <tr>
+                <td>2015</td>
+                <td>2019</td>
+                <td>ABC High School</td>
+            </tr>
+
+            <tr>
+                <td>2009</td>
+                <td>2014</td>
+                <td>ABC Elementary school</td>
+            </tr>
+
         </table>
 
     </div>
@@ -30,3 +74,5 @@
 
 
 </div>
+</body>
+</html>
